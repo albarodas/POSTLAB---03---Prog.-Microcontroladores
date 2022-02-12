@@ -13,7 +13,7 @@
  #include <xc.inc>
  
 ;configuration word 1
-  CONFIG FOSC=INTRC_NOCLKOUT //oscilador interno
+  CONFIG FOSC=INTRC_NOCLKOUT //oscilador interno --> reloj interno..
   CONFIG WDTE=OFF // WDT disables  (reinicia repetitivamente el PIC)
   CONFIG PWRTE=ON // PWRT enabled (se espera 72ms al empezar el funcionamiento)
   CONFIG MCLRE=OFF // El pin MCLR de utiliza como INPUT/OUTPUT
