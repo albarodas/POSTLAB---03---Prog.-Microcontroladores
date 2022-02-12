@@ -185,7 +185,6 @@
     clrf    PORTD	    ; SI EN MI PORTD, SE PASA DE 4 BITS, LE DOY "LIMPIAR"
 
     return
- 
 
  ;-------------------configuracion display(7segmentos)---------------
  
