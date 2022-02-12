@@ -30,8 +30,8 @@
  
  PSECT udata_bank0 ; common memory
     counter: DS  2	; 2 byte
-    display_variable: DS    1  ; 1 byte
-    restamos:	    DS	1	; 1 byte
+    display_variable: DS    1  ; 1 byte de ancho
+    restamos:	    DS	1	; 1 byte de ancho
  PSECT resVect, class=CODE, abs, delta=2
 
    ;-------------vector reset----------------
